@@ -1,0 +1,17 @@
+{
+  "name": "Jokenpo",
+  "version": "1.0.0",
+  "description": "Mini game de Jokenpo (Pedra-Papel-Tesoura) feito com NodeJS",
+  "main": "jokenpo.js",
+  "scripts": {
+    "start": "node jokenpo.js"
+  },
+  "keywords": [
+    "jogo",
+    "jokenpo",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Gabriel Santos Cardoso",
+  "license": "ISC"
+}

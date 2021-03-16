@@ -23,9 +23,9 @@ rl.question(questionName, name => {
     
     rl.question(hunch, res => {
         this.res = res;
-        console.log(`\nSua resposta foi: ${res}`);
+        console.log(`\nSua resposta foi: ${this.res}`);
         
-        if(!res){
+        if(!this.res){
             console.log('Resposta inválida!');
             return rl.close();
         };
